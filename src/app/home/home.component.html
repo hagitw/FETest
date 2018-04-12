@@ -1,0 +1,7 @@
+<div class="RootCircle" (click)="ClickO()"></div>
+
+<div *ngIf="root!=undefined">
+  <span *ngFor="let c of root.data.children;let i = index">
+   <p class= "ExpandedNode" [style.backgroundColor]="c.url !='' ? '#67b4e7': '#a0a0a0' " (click)="GetImg(i)"></p>
+  </span>
+</div>

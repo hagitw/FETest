@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row-1">
+    <img class="col-6" src={{url}} height="250">
+  </div>
+    <div class="row-2" *ngFor="let img of arrUrl; let i = index" height="60" item-width="60">
+      <img class="col-1" (click)="SwitchImg(i)" src={{img.url}}>
+    </div> 
+</div>

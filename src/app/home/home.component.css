@@ -1,0 +1,23 @@
+.RootCircle{
+background: #414141;
+border-radius: 50%;
+outline:5px #414141 double;
+width: 40px;
+height: 40px;
+display: inline-block;
+position: relative;
+shape-outside: circle(45%);
+margin: 2px;
+}
+.ExpandedNode
+{
+column-count: 4;
+border-radius: 30px;
+height: 40px;
+position:relative;
+margin:5px;
+width: 3%;
+}
+
+/* shape-outside: circle(50% at 0 0);transform: skew(-50deg);
+*/
